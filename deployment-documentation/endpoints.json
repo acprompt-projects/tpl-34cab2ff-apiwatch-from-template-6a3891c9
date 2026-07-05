@@ -1,0 +1,30 @@
+===
+[
+  {
+    "id": "github-api",
+    "name": "GitHub API",
+    "url": "https://api.github.com/zen",
+    "method": "GET",
+    "expectedStatus": 200,
+    "timeoutMs": 5000,
+    "headers": { "User-Agent": "APIWatch/1.0" }
+  },
+  {
+    "id": "httpbin",
+    "name": "httpbin.org",
+    "url": "https://httpbin.org/status/200",
+    "method": "GET",
+    "expectedStatus": 200,
+    "timeoutMs": 5000,
+    "headers": {}
+  },
+  {
+    "id": "example",
+    "name": "Example.com",
+    "url": "https://example.com",
+    "method": "GET",
+    "expectedStatus": 200,
+    "timeoutMs": 5000,
+    "headers": {}
+  }
+]
